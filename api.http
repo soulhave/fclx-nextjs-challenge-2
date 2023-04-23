@@ -1,0 +1,10 @@
+### Get chat
+GET http://localhost:3000/api/chats
+
+### Create chat
+POST http://localhost:3000/api/chats
+Content-Type: application/json
+
+{
+    "message": "Chat 2"
+}
